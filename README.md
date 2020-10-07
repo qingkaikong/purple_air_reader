@@ -16,6 +16,9 @@ This is a simple script to print out a selected [purple air sensor](https://www.
 
 This is just quick demo of how you can get the purple air sensor recordings. You need to get the key and id of the sensor from [purple air map](https://www.purpleair.com/map?opt=1/mAQI/a10/cC0#7/37.838/-122.24) by clicking the sensor near you and havoring your mouse on "Get This Widget". An example you can see is [here](https://www.purpleair.com/data.json?key=6BR4BQEDL0461CLD&show=68357). You can also check [purple air API documentation](https://docs.google.com/document/d/15ijz94dXJ-YAZLi9iZ_RaBwrZ4KtYeCy08goGBwnbCU/edit) for more details. 
 
+This is what you get when you run the script. 
+![Example](./img/example.png)
+
 After you get the data from purple air, you can use it in multiple applications, such as 
 * Monitor the air quality near you, and set a threshold, if the PM2.5 value is higher than the threshold, send you an email. 
 * Build a display at home to show the values using a LCD Screen Display and a micro-controller, or [this one](https://www.amazon.com/gp/product/B07STVP29Y). (suggested by my neighbor and it will be my next step)
